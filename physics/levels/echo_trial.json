@@ -1,0 +1,29 @@
+{
+  "title": "Canopy Clash: Echo Trial",
+  "width": 3100,
+  "height": 1600,
+  "seconds": 60,
+  "start": 0,
+  "markers": [5, 9],
+  "exit": 13,
+  "exit_coin_destinations": [10, 11, 12],
+  "safe_route": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+  "platforms": [
+    [90, 1370, 260, "hub"],
+    [520, 1210, 220, "normal"],
+    [1030, 1110, 210, "normal"],
+    [1550, 1160, 220, "normal"],
+    [2080, 1080, 220, "normal"],
+    [2600, 925, 260, "hub"],
+    [2180, 690, 200, "normal"],
+    [1700, 760, 190, "normal"],
+    [1220, 640, 210, "normal"],
+    [700, 570, 260, "hub"],
+    [1220, 350, 210, "normal"],
+    [1740, 230, 210, "normal"],
+    [2240, 300, 220, "normal"],
+    [2700, 180, 260, "hub"]
+  ],
+  "treasure": {"x": 430, "y": 480, "width": 125, "dock": 9, "coins": 5, "value": 2},
+  "coins_per_platform": 3
+}
