@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "id": "woodland-04",
+  "world": 1,
+  "title": "Brittle Boughs",
+  "width": 2900,
+  "height": 1800,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1550,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      520,
+      1400,
+      240,
+      20,
+      "normal"
+    ],
+    [
+      1020,
+      1290,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      1780,
+      1100,
+      250,
+      20,
+      "hub"
+    ],
+    [
+      2360,
+      880,
+      250,
+      20,
+      "normal"
+    ],
+    [
+      2100,
+      600,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      1470,
+      430,
+      230,
+      20,
+      "normal"
+    ],
+    [
+      870,
+      250,
+      300,
+      20,
+      "hub"
+    ],
+    [
+      1320,
+      1480,
+      280,
+      20,
+      "normal"
+    ],
+    [
+      2050,
+      1300,
+      230,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    2,
+    5
+  ],
+  "exit": 7,
+  "route": [
+    0,
+    1,
+    2,
+    10,
+    3,
+    11,
+    4,
+    5,
+    6,
+    7
+  ],
+  "gold": [
+    12
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    10,
+    3,
+    11,
+    4,
+    5,
+    6,
+    12,
+    7
+  ],
+  "moving": [
+    {
+      "deck": [
+        1400,
+        1200,
+        145,
+        18,
+        "fall"
+      ],
+      "dock": 2,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 300
+    },
+    {
+      "deck": [
+        2060,
+        1000,
+        145,
+        18,
+        "fall"
+      ],
+      "dock": 3,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 300
+    },
+    {
+      "deck": [
+        1660,
+        180,
+        140,
+        18,
+        "fall"
+      ],
+      "dock": 6,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 300
+    }
+  ],
+  "hint": "Fragile branches crack for one second. Keep moving toward a solid deck.",
+  "summary": "A horseshoe of short fragile links, solid islands and lower catch branches.",
+  "gold_hint": "Five gold coins on the last fragile branch. Collect them and leave.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Cracks mean one second. Jump onward."
+    },
+    {
+      "at": 8,
+      "text": "Missed the bridge? Climb back from here."
+    }
+  ]
+}

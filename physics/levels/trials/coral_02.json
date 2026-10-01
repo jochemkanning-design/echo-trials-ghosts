@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "id": "coral-02",
+  "world": 2,
+  "title": "Shell Ferry",
+  "width": 3200,
+  "height": 1590,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1340,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      620,
+      1200,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      1720,
+      1050,
+      290,
+      20,
+      "hub"
+    ],
+    [
+      2500,
+      850,
+      260,
+      20,
+      "normal"
+    ],
+    [
+      2850,
+      620,
+      240,
+      20,
+      "hub"
+    ],
+    [
+      2310,
+      440,
+      300,
+      20,
+      "hub"
+    ],
+    [
+      2690,
+      300,
+      150,
+      20,
+      "gold"
+    ],
+    [
+      1290,
+      1420,
+      230,
+      20,
+      "normal"
+    ],
+    [
+      2160,
+      1300,
+      230,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    1,
+    4
+  ],
+  "exit": 5,
+  "route": [
+    0,
+    1,
+    9,
+    2,
+    10,
+    3,
+    4,
+    5
+  ],
+  "gold": [
+    6
+  ],
+  "gold_route": [
+    0,
+    1,
+    9,
+    2,
+    10,
+    3,
+    4,
+    6,
+    5
+  ],
+  "moving": [
+    {
+      "deck": [
+        970,
+        1160,
+        200,
+        20,
+        "shuttle"
+      ],
+      "dock": 1,
+      "travel": [
+        490,
+        0
+      ],
+      "period": 420,
+      "phase": 0
+    },
+    {
+      "deck": [
+        2090,
+        1030,
+        180,
+        20,
+        "shuttle"
+      ],
+      "dock": 2,
+      "travel": [
+        140,
+        -150
+      ],
+      "period": 360,
+      "phase": 0
+    }
+  ],
+  "hint": "Ride the shell ferries. They pause at each end; wait for a comfortable jump.",
+  "summary": "Two shell shuttles cross wide channels, with lower recovery shelves.",
+  "gold_hint": "Climb from the last flower to the narrow pearl shelf.",
+  "signs": [
+    {
+      "at": 1,
+      "text": "Board the moving shell. Ride toward the far reef before jumping."
+    },
+    {
+      "at": 2,
+      "text": "Shells carry you and their coins. Rest here to choose the next crossing."
+    }
+  ]
+}

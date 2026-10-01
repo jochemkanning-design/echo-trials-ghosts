@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "id": "coral-03",
+  "world": 2,
+  "title": "Jellybell Passage",
+  "width": 2820,
+  "height": 1530,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1290,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      530,
+      1130,
+      260,
+      20,
+      "normal"
+    ],
+    [
+      1000,
+      970,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      1560,
+      1000,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      2150,
+      780,
+      260,
+      20,
+      "normal"
+    ],
+    [
+      2390,
+      520,
+      250,
+      20,
+      "hub"
+    ],
+    [
+      1830,
+      350,
+      300,
+      20,
+      "hub"
+    ],
+    [
+      2450,
+      280,
+      150,
+      20,
+      "gold"
+    ],
+    [
+      1330,
+      1300,
+      210,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    2,
+    5
+  ],
+  "exit": 6,
+  "route": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "gold": [
+    7
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    5,
+    6
+  ],
+  "jellies": [
+    {
+      "x": 1410,
+      "y": 865,
+      "size": 49,
+      "travel_y": 35,
+      "period": 330
+    },
+    {
+      "x": 2070,
+      "y": 590,
+      "size": 43,
+      "travel_y": 28,
+      "period": 300,
+      "phase": 105
+    }
+  ],
+  "watch_decks": [
+    2,
+    3,
+    4
+  ],
+  "hint": "Jellybells: blue REST is safe; gold WARN gives notice; pink STING is lethal.",
+  "summary": "Watch two pulsing jellybells from safe shelves, then cross their passages.",
+  "gold_hint": "The upper pearl pocket adds height before returning to the gate.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Jellybell: blue REST / gold WARN / pink STING. Cross during REST."
+    },
+    {
+      "at": 3,
+      "text": "Safe lookout. Watch the next pulse before leaving."
+    }
+  ]
+}

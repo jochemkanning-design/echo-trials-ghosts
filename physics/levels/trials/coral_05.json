@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "id": "coral-05",
+  "world": 2,
+  "title": "Reef Labyrinth",
+  "width": 3240,
+  "height": 1900,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1660,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      500,
+      1510,
+      240,
+      20,
+      "normal"
+    ],
+    [
+      860,
+      1410,
+      290,
+      20,
+      "hub"
+    ],
+    [
+      1150,
+      790,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      1710,
+      850,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      2470,
+      660,
+      260,
+      20,
+      "normal"
+    ],
+    [
+      2840,
+      440,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      2210,
+      240,
+      320,
+      20,
+      "hub"
+    ],
+    [
+      3010,
+      170,
+      150,
+      20,
+      "gold"
+    ],
+    [
+      1450,
+      1130,
+      220,
+      20,
+      "normal"
+    ],
+    [
+      2110,
+      1090,
+      250,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    2,
+    6
+  ],
+  "exit": 7,
+  "route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    12,
+    5,
+    13,
+    6,
+    7
+  ],
+  "gold": [
+    8
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    12,
+    5,
+    13,
+    6,
+    8,
+    7
+  ],
+  "walls": [
+    [
+      1150,
+      790,
+      48,
+      640
+    ]
+  ],
+  "moving": [
+    {
+      "deck": [
+        2120,
+        830,
+        180,
+        20,
+        "shuttle"
+      ],
+      "dock": 4,
+      "travel": [
+        70,
+        -130
+      ],
+      "period": 360,
+      "phase": 0
+    },
+    {
+      "deck": [
+        2750,
+        550,
+        150,
+        20,
+        "fall"
+      ],
+      "dock": 5,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 360,
+      "phase": 0
+    }
+  ],
+  "jellies": [
+    {
+      "x": 1530,
+      "y": 665,
+      "size": 46,
+      "travel_y": 32,
+      "period": 330,
+      "phase": 70
+    },
+    {
+      "x": 2590,
+      "y": 440,
+      "size": 38,
+      "travel_y": 26,
+      "period": 360,
+      "phase": 150
+    }
+  ],
+  "watch_decks": [
+    3,
+    4,
+    5
+  ],
+  "hint": "Kelp, jellybells, shell ferry and a fragile coral link. Keep one pulse in reserve.",
+  "summary": "A climbing lagoon opens into timed channels and a crumbling final ascent.",
+  "gold_hint": "Reach the high pearl perch before turning back to the gate.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Climb the kelp chimney. Hold toward the wall + UP."
+    },
+    {
+      "at": 3,
+      "text": "Safe lookout. Blue jellybells rest; pink jellybells sting."
+    },
+    {
+      "at": 5,
+      "text": "The orange coral breaks after one second. Jump onward or return here."
+    }
+  ]
+}

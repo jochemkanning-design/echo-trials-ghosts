@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "id": "woodland-05",
+  "world": 1,
+  "title": "Canopy Crown",
+  "width": 3100,
+  "height": 2100,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1830,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      500,
+      1700,
+      240,
+      20,
+      "normal"
+    ],
+    [
+      950,
+      1600,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      1230,
+      1000,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      1820,
+      940,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      2470,
+      780,
+      260,
+      20,
+      "normal"
+    ],
+    [
+      2740,
+      490,
+      230,
+      20,
+      "hub"
+    ],
+    [
+      2200,
+      300,
+      220,
+      20,
+      "normal"
+    ],
+    [
+      1540,
+      150,
+      290,
+      20,
+      "hub"
+    ],
+    [
+      1770,
+      1180,
+      300,
+      20,
+      "normal"
+    ],
+    [
+      2260,
+      1080,
+      250,
+      20,
+      "normal"
+    ],
+    [
+      2680,
+      130,
+      140,
+      20,
+      "gold"
+    ]
+  ],
+  "markers": [
+    2,
+    6
+  ],
+  "exit": 8,
+  "route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    13,
+    5,
+    6,
+    14,
+    7,
+    8
+  ],
+  "gold": [
+    11
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    13,
+    5,
+    6,
+    11,
+    14,
+    7,
+    8
+  ],
+  "walls": [
+    [
+      1230,
+      1000,
+      44,
+      620
+    ]
+  ],
+  "axes": [
+    {
+      "x": 1660,
+      "y": 610,
+      "length": 250,
+      "amplitude": 0.95,
+      "period": 300,
+      "phase": 45,
+      "size": 30
+    }
+  ],
+  "moving": [
+    {
+      "deck": [
+        2160,
+        830,
+        135,
+        18,
+        "fall"
+      ],
+      "dock": 4,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 300
+    },
+    {
+      "deck": [
+        2510,
+        380,
+        135,
+        18,
+        "fall"
+      ],
+      "dock": 6,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 300
+    },
+    {
+      "deck": [
+        760,
+        1910,
+        170,
+        18,
+        "shuttle"
+      ],
+      "dock": 1,
+      "travel": [
+        260,
+        0
+      ],
+      "period": 300
+    }
+  ],
+  "hint": "Ivy, blade, fragile branches. Use the solid islands between each challenge.",
+  "summary": "Three encounters wind around a tall hollow, ending above the whole forest.",
+  "gold_hint": "The crown above flower 2 is a demanding extra climb.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Climb the ivy. No jumps refill while gripping."
+    },
+    {
+      "at": 3,
+      "text": "Rest here. Watch the pendulum before crossing."
+    },
+    {
+      "at": 4,
+      "text": "Leave the next fragile branch before it breaks."
+    }
+  ]
+}

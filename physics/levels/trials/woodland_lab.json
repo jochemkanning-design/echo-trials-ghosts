@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "id": "woodland-lab",
+  "world": 1,
+  "title": "Mechanics Garden",
+  "width": 2400,
+  "height": 1600,
+  "seconds": 60,
+  "practice": true,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1360,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      500,
+      1260,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      760,
+      750,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      1400,
+      850,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      1990,
+      600,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      1580,
+      310,
+      300,
+      20,
+      "hub"
+    ],
+    [
+      1160,
+      360,
+      150,
+      20,
+      "gold"
+    ]
+  ],
+  "walls": [
+    [
+      760,
+      750,
+      44,
+      530
+    ]
+  ],
+  "markers": [
+    1,
+    4
+  ],
+  "exit": 5,
+  "gold": [
+    6
+  ],
+  "moving": [
+    {
+      "deck": [
+        1720,
+        790,
+        170,
+        18,
+        "shuttle"
+      ],
+      "dock": 3,
+      "travel": [
+        130,
+        -90
+      ],
+      "period": 300
+    },
+    {
+      "deck": [
+        1510,
+        500,
+        140,
+        18,
+        "fall"
+      ],
+      "dock": 4,
+      "travel": [
+        0,
+        0
+      ],
+      "period": 300
+    }
+  ],
+  "axes": [
+    {
+      "x": 1220,
+      "y": 450,
+      "length": 200,
+      "period": 330,
+      "amplitude": 0.9,
+      "size": 24
+    }
+  ],
+  "route": [
+    0,
+    1,
+    {
+      "climb": 0,
+      "exit": 2
+    },
+    3,
+    8,
+    4,
+    9,
+    5
+  ],
+  "gold_route": [
+    0,
+    1,
+    {
+      "climb": 0,
+      "exit": 2
+    },
+    6,
+    3,
+    8,
+    4,
+    9,
+    5
+  ],
+  "hint": "Practice climbing, a pendulum, a moving platform and a fragile branch.",
+  "summary": "A separate mechanics course. Practice does not change personal records.",
+  "gold_hint": "Try the high pocket after the ivy climb.",
+  "signs": [
+    {
+      "at": 1,
+      "text": "UP on ivy climbs. Space / A jumps off."
+    },
+    {
+      "at": 2,
+      "text": "Watch the blade from this safe ledge."
+    },
+    {
+      "at": 3,
+      "text": "Board the moving branch, then jump to flower 2."
+    }
+  ]
+}

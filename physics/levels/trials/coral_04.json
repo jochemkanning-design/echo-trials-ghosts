@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "id": "coral-04",
+  "world": 2,
+  "title": "Kelp Chimney",
+  "width": 2520,
+  "height": 1790,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1540,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      460,
+      1390,
+      250,
+      20,
+      "normal"
+    ],
+    [
+      790,
+      1290,
+      290,
+      20,
+      "hub"
+    ],
+    [
+      1080,
+      650,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      1590,
+      480,
+      270,
+      20,
+      "normal"
+    ],
+    [
+      2110,
+      340,
+      270,
+      20,
+      "hub"
+    ],
+    [
+      1550,
+      180,
+      330,
+      20,
+      "hub"
+    ],
+    [
+      2240,
+      100,
+      150,
+      20,
+      "gold"
+    ],
+    [
+      610,
+      1580,
+      230,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    2,
+    5
+  ],
+  "exit": 6,
+  "route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    5,
+    6
+  ],
+  "gold": [
+    7
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    5,
+    7,
+    6
+  ],
+  "walls": [
+    [
+      1080,
+      650,
+      48,
+      660
+    ]
+  ],
+  "hint": "Grip the green kelp edge and hold UP. Rest while hanging; land to refill pulses.",
+  "summary": "A tall kelp-covered rock separates the lower lagoon from the upper reef.",
+  "gold_hint": "A small shelf above flower 2 invites a high swimming detour.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Press toward kelp + UP to climb. You can hang without spending pulses."
+    },
+    {
+      "at": 3,
+      "text": "Top reached! Landing refills all five swim pulses."
+    }
+  ]
+}

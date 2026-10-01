@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "id": "coral-01",
+  "world": 2,
+  "title": "Bubble Stair",
+  "width": 2400,
+  "height": 1540,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1300,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      520,
+      1160,
+      270,
+      20,
+      "normal"
+    ],
+    [
+      1030,
+      970,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      1570,
+      760,
+      270,
+      20,
+      "normal"
+    ],
+    [
+      2010,
+      590,
+      250,
+      20,
+      "hub"
+    ],
+    [
+      1450,
+      430,
+      280,
+      20,
+      "normal"
+    ],
+    [
+      850,
+      240,
+      320,
+      20,
+      "hub"
+    ],
+    [
+      1760,
+      260,
+      155,
+      20,
+      "gold"
+    ],
+    [
+      1270,
+      1260,
+      230,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    2,
+    4
+  ],
+  "exit": 6,
+  "route": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "gold": [
+    7
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    5,
+    6
+  ],
+  "hint": "Five swim pulses. Land on coral to refill. Find flower 1, then flower 2.",
+  "summary": "A rising spiral with broad shelves teaches the slower underwater fall.",
+  "gold_hint": "A pearl crown above flower 2 rewards a deliberate extra ascent.",
+  "signs": [
+    {
+      "at": 0,
+      "text": "Space / A: swim pulse. Five pulses refill on landing."
+    },
+    {
+      "at": 2,
+      "text": "You sink slowly here. Save a pulse to correct your landing."
+    }
+  ]
+}

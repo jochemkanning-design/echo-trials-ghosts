@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "id": "woodland-02",
+  "world": 1,
+  "title": "Ivy Steps",
+  "width": 2500,
+  "height": 1750,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1510,
+      250,
+      20,
+      "hub"
+    ],
+    [
+      450,
+      1370,
+      240,
+      20,
+      "normal"
+    ],
+    [
+      770,
+      1270,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      1050,
+      650,
+      250,
+      20,
+      "hub"
+    ],
+    [
+      1560,
+      500,
+      220,
+      20,
+      "normal"
+    ],
+    [
+      2070,
+      360,
+      240,
+      20,
+      "hub"
+    ],
+    [
+      1620,
+      200,
+      300,
+      20,
+      "hub"
+    ],
+    [
+      2200,
+      110,
+      145,
+      20,
+      "gold"
+    ],
+    [
+      600,
+      1520,
+      190,
+      20,
+      "normal"
+    ]
+  ],
+  "markers": [
+    2,
+    5
+  ],
+  "exit": 6,
+  "route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    5,
+    6
+  ],
+  "gold": [
+    7
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    {
+      "climb": 0,
+      "exit": 3
+    },
+    4,
+    5,
+    7,
+    6
+  ],
+  "walls": [
+    [
+      1050,
+      650,
+      44,
+      640
+    ]
+  ],
+  "hint": "Touch the ivy wall, then hold UP to climb. Space / A jumps away.",
+  "summary": "A tall ivy climb divides a low forest path from the upper branches.",
+  "gold_hint": "Leap above flower 2, then return toward the exit.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Hold toward ivy + UP. Climb to its top."
+    },
+    {
+      "at": 3,
+      "text": "A real landing refills five jumps."
+    }
+  ]
+}

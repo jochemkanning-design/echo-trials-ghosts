@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "id": "woodland-03",
+  "world": 1,
+  "title": "Pendulum Hollow",
+  "width": 3100,
+  "height": 1500,
+  "seconds": 60,
+  "start": 0,
+  "platforms": [
+    [
+      80,
+      1260,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      500,
+      1100,
+      230,
+      20,
+      "normal"
+    ],
+    [
+      980,
+      920,
+      280,
+      20,
+      "hub"
+    ],
+    [
+      1550,
+      920,
+      250,
+      20,
+      "hub"
+    ],
+    [
+      2050,
+      760,
+      240,
+      20,
+      "normal"
+    ],
+    [
+      2590,
+      550,
+      260,
+      20,
+      "hub"
+    ],
+    [
+      2120,
+      350,
+      240,
+      20,
+      "normal"
+    ],
+    [
+      1480,
+      170,
+      320,
+      20,
+      "hub"
+    ],
+    [
+      1300,
+      600,
+      140,
+      20,
+      "gold"
+    ]
+  ],
+  "markers": [
+    2,
+    5
+  ],
+  "exit": 7,
+  "route": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "gold": [
+    8
+  ],
+  "gold_route": [
+    0,
+    1,
+    2,
+    8,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "axes": [
+    {
+      "x": 1400,
+      "y": 590,
+      "length": 250,
+      "amplitude": 1.0,
+      "period": 330,
+      "phase": 0,
+      "size": 28
+    }
+  ],
+  "hint": "Watch the blade from flower 1. Cross when it swings clear.",
+  "summary": "Two broad lookout decks frame a swinging blade in an open hollow.",
+  "gold_hint": "Climb to the pocket above the blade, then choose a safe descent.",
+  "signs": [
+    {
+      "at": 2,
+      "text": "Watch a full swing. Only the blade is lethal."
+    }
+  ]
+}
