@@ -1,0 +1,45 @@
+ECHO TRIALS COMMUNITY GHOSTS V1 — VALIDATION
+Build: 2026-10-01-online-ghosts
+
+IMPLEMENTED AND TESTED LOCALLY
+- Default Online best on a fresh profile; built-in challenge visible from run 1.
+- Ten built-in challenges generated from real successful routes.
+- Actual browser gameplay records fixed-tick inputs and submits a finish.
+- Server reconstructs all ten courses with the original physics and verifies
+  score, finish tick, both flowers, survival, and exact course version.
+- Two separate Chromium processes: A finishes/shares; B receives A's named
+  replay and draws it alongside the player with independent local history.
+- Off preference survives browser reload; personal best appears when selected.
+- All personal attempts remain available in the V replay viewer.
+- Failed GET preserves the active rival and the game keeps running.
+- Failed POST keeps a pending run locally; retry publishes it successfully.
+- Removing B's published ghosts preserves A's ghosts and B's local archive.
+- Older Fix3 SQLite history loads without changing its bytes; prior Off choice
+  is preserved. New online preference survives export/restore.
+- Fractional controller inputs are captured without truncation.
+- All physics files and level definitions match Fix3 byte for byte, so course
+  keys and old recordings remain compatible.
+- SQLite service data survives reopening; score/time ranking and Next rival
+  selection, one-best-per-player, and inferior-update rejection verified.
+- Rejected wrong versions, forged scores/times, failed routes, invalid input
+  ranges/types, NaN, missing identity, oversized requests and rate-limit abuse.
+- CORS preflight and cross-origin requests with normal browser security.
+- Production Gunicorn 26.2.0: actual HTTP health, submit, and verification.
+- Packaged local-community Python launcher, game assets, and config ZIP tool.
+- No browser page exceptions in the successful end-to-end test.
+
+DELIVERY BOUNDARIES
+- No public endpoint is configured or deployed. Hosting account access is
+  needed to activate internet sharing; see ONLINE_SETUP.txt.
+- Browser tests ran on Linux Chromium. A physical Xbox controller, native
+  Windows BAT execution, Safari/Firefox, and a live itch embed were not tested.
+- PostgreSQL adapter and deployment files are included. Local PostgreSQL
+  execution was blocked by this environment's database user restrictions;
+  PostgreSQL/Neon deployment must be checked during public activation.
+- Dockerfile uses the same tested Python/Gunicorn entry point. A Docker
+  image was not built in this environment.
+- Verification checks physically valid input sequences, not whether a human
+  rather than an automated tool produced them.
+
+The original offline runtime files are unchanged. Built-in and personal
+ ghosts require no service. Share opt-in defaults OFF; it does not block play.

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: echo-trials-ghosts
+    runtime: docker
+    plan: free
+    healthCheckPath: /v1/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: '*'
+      - key: MAX_PUBLIC_RUNS
+        value: '5000'
